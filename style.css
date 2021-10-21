@@ -44,3 +44,15 @@
     flex-grow: 1;
     border: 3px solid rgb(255, 255, 255);
 }
+
+.nav{
+    display: flex;
+  
+    background-color: rgb(224, 224, 224);
+    height: 80px;
+    justify-content: center;
+  margin-top: 10px;
+}
+.nav > h1{
+    align-items: center;
+}
