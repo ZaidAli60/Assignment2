@@ -19,3 +19,28 @@
 .nav > h1{
     align-items: center;
 }
+
+
+.page{
+    margin-top: 8px;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+   
+    flex-wrap: wrap;
+    height: 400px;
+   
+   text-align: center;
+}
+.item1{
+    flex-grow: 1;
+    border: 3px solid rgb(255, 255, 255);
+    align-items: center;
+}
+.item2{
+    flex-grow: 4;
+    border: 3px solid rgb(255, 255, 255);
+}
+.item3{
+    flex-grow: 1;
+    border: 3px solid rgb(255, 255, 255);
+}
